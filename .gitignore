@@ -1,0 +1,17 @@
+# Python 仮想環境
+.venv/
+venv/
+env/
+
+# コンパイルされたPythonファイル
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE specific files
+.idea/ # PyCharm
+.vscode/ # VS Code
+
+# 設定ファイルや秘密情報 (非常に重要!)
+.secret
+*.env
