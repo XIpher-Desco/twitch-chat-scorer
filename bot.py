@@ -129,7 +129,7 @@ class TwitchChatBot(commands.Bot):
             return
         if message.author.name.lower() == self.nick.lower():
             return  # ボット自身のメッセージは無視
-        if message.author.name.lower() == 'xiphelier_bot':
+        if message.author.name.lower() == 'bot':
             return
         print(f'[{message.channel.name}] {message.author.name}: {message.content}')
 
